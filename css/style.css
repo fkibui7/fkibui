@@ -1565,6 +1565,7 @@ img{
     margin-left: 4px;
     margin-top: -2px;
     justify-content: center;
+    align-items: center;
 }
 
 .grid {
