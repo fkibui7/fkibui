@@ -1561,25 +1561,9 @@ img{
     height: auto;
 }
 
-
-/*================= THEME ===================*/ 
-
-
-
-
-/*================= Variables Dark theme ===================*/
-
-
-
-/*================= 
-        Color changes in some parts of
-        the website, in light theme
-=================*/ 
-
-
 /*================= Reusable CSS Classes ===================*/ 
 .container {
-    margin-left: 4.5rem;
+    margin-left: 7.5rem;
     margin-right: 1.5rem;
 }
 
