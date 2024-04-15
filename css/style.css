@@ -1561,10 +1561,6 @@ img{
     height: auto;
 }
 /*================= Reusable CSS Classes ===================*/ 
-container {
-    margin-left: 4.5rem;
-    margin-right: 1.5rem;
-}
 
 .grid {
     display: grid;
