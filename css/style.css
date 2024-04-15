@@ -1573,10 +1573,12 @@ img{
 /*================= Profile ===================*/ 
 .profile {
     position: relative;
+    margin-left: 50px;
 }
 
 .profile__container {
     row-gap: 2em;
+    margin-left: 50px;
 }
 
 .profile__data {
