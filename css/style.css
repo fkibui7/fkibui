@@ -1614,14 +1614,17 @@ img{
 
 .profile__name {
     font-size: var(--h2-font-size);
-    margin-left: 12px;
+    margin-left: 16px;
 }
 
 .profile__profession {
     font-size: var(--smaller-font-size);
     font-weight: 600;
     color: var(--text-color);
-    margin-left: 18px;
+    margin-left: 25px;
+}
+.description {
+    margin-left: -10px;
 }
 
 .profile__social {
