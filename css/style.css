@@ -1560,11 +1560,10 @@ img{
     max-width: 100%;
     height: auto;
 }
-
 /*================= Reusable CSS Classes ===================*/ 
-.container {
-    margin-left: 7rem;
-    margin-right: 0rem;
+container {
+    margin-left: 4.5rem;
+    margin-right: 1.5rem;
 }
 
 .grid {
