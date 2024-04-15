@@ -1563,6 +1563,8 @@ img{
 /*================= Reusable CSS Classes ===================*/ 
 .container {
     margin-left: 4px;
+    margin-top: -2px;
+    justify-content: center;
 }
 
 .grid {
@@ -1605,13 +1607,13 @@ img{
     border-radius: 50%;
     display: grid;
     place-items: center;
-    margin-bottom: .75rem;
-    margin-left: 22px;
+    margin-bottom: .5rem;
+    margin-left: 21px;
 }
 
 .profile__name {
     font-size: var(--h2-font-size);
-    margin-left: 11px;
+    margin-left: 12px;
 }
 
 .profile__profession {
