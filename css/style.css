@@ -1582,6 +1582,7 @@ img{
 .profile__container {
     row-gap: 2em;
     margin-left: 35px;
+    margin-top: -40px;
 }
 
 .profile__data {
@@ -1689,6 +1690,7 @@ img{
     border-radius: .5rem;
     transition: .3s;
     box-shadow: 0 8px 24px hsla(var(--hue), var(--sat), var(--lig), .25);
+    margin-top: -20px;
 }
 
 .button i {
