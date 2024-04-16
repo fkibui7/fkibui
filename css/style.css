@@ -1715,4 +1715,64 @@ img{
     background-color: var(--text-color-light);
 }
 
+.cursor-anim {
+    width: 40px;
+    height: 40px;
+    border: 2px solid white;
+    position: absolute;
+    border-radius: 50%;
+    transition-duration: 200ms;
+    transition-timing-function: ease-out;
+    animation: cursor-animAnim .5s infinite alternate;
+    pointer-events: none;
+}
+
+.cursor-anim::after{
+    content: "";
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    border: 8px solid gray;
+    border-radius: 50%;
+    opacity: .5;
+    top: 8px;
+    left: 8px;
+    animation: cursor-animAnim2 .5s infinite alternate;
+}
+
+@keyframes cursor-animAnim {
+    from{
+       transform: scale(1);
+    }
+    to {
+        transform: scale(.7);
+    }
+}
+
+@keyframes cursor-animAnim2 {
+    from{
+       transform: scale(1);
+    }
+    to {
+        transform: scale(.4);
+    }
+}
+
+@keyframes cursor-animAnim3 {
+   0%{
+    transform: scale(1);
+   }
+   50%{
+    transform: scale(3);
+   }
+   100%{
+    transform: scale(1);
+   }
+}
+
+.expand {
+    animation: cursor-animAnim3 .5s forwards;
+    border: 1px solid red;
+}
+
 
